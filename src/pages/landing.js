@@ -23,7 +23,7 @@ export default function Landing(){
             <Toolbar>
               <Grid container spacing={2} alignItems="center">
                 <Grid item>
-                  <SearchIcon color="inherit" sx={{ display: 'block' }} />
+                  <SearchIcon color="primary" sx={{ display: 'block' }} />
                 </Grid>
                 <Grid item xs>
                   <TextField
@@ -49,7 +49,7 @@ export default function Landing(){
               </Grid>
             </Toolbar>
           </AppBar>
-          <Typography sx={{ my: 5, mx: 2 }} color="text.secondary" align="center">
+          <Typography sx={{ my: 5, mx: 2 }} color="text.primary" align="center">
             No users for this project yet
           </Typography>
         </Paper>
